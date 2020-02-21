@@ -18,9 +18,11 @@
 		F195BD9323FE6B5A00D543F5 /* VisualRecognitionV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9223FE6B5A00D543F5 /* VisualRecognitionV4.framework */; };
 		F195BD9423FE6B5A00D543F5 /* VisualRecognitionV4.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9223FE6B5A00D543F5 /* VisualRecognitionV4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F195BD9723FE6BC700D543F5 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9623FE6BC700D543F5 /* SVProgressHUD.framework */; };
-		F195BD9823FE6BC700D543F5 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9623FE6BC700D543F5 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F195BD9A23FE70FC00D543F5 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9923FE70FC00D543F5 /* RestKit.framework */; };
 		F195BD9B23FE70FC00D543F5 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F195BD9923FE70FC00D543F5 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F1B0B6E923FF7387001A0CA3 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0B6E823FF7387001A0CA3 /* TimeLineViewController.swift */; };
+		F1B0B6EB23FF73D0001A0CA3 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0B6EA23FF73D0001A0CA3 /* ShareViewController.swift */; };
+		F1B0B6ED23FFA774001A0CA3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B0B6EC23FFA774001A0CA3 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +32,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F195BD9823FE6BC700D543F5 /* SVProgressHUD.framework in Embed Frameworks */,
 				F195BD9423FE6B5A00D543F5 /* VisualRecognitionV4.framework in Embed Frameworks */,
 				F195BD9B23FE70FC00D543F5 /* RestKit.framework in Embed Frameworks */,
 			);
@@ -55,6 +56,9 @@
 		F195BD9223FE6B5A00D543F5 /* VisualRecognitionV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV4.framework; path = ../../../Desktop/BoxCarthage/Carthage/Build/iOS/VisualRecognitionV4.framework; sourceTree = "<group>"; };
 		F195BD9623FE6BC700D543F5 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = ../../../Desktop/BoxCarthage/Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
 		F195BD9923FE70FC00D543F5 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = ../../../Desktop/BoxCarthage/Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		F1B0B6E823FF7387001A0CA3 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		F1B0B6EA23FF73D0001A0CA3 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		F1B0B6EC23FFA774001A0CA3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,9 @@
 				F1367F0F23FE5B12002621DE /* LaunchScreen.storyboard */,
 				F195BD9023FE5FC800D543F5 /* GoogleService-Info.plist */,
 				F1367F1223FE5B12002621DE /* Info.plist */,
+				F1B0B6E823FF7387001A0CA3 /* TimeLineViewController.swift */,
+				F1B0B6EA23FF73D0001A0CA3 /* ShareViewController.swift */,
+				F1B0B6EC23FFA774001A0CA3 /* Post.swift */,
 			);
 			path = SwiftPetSNS;
 			sourceTree = "<group>";
@@ -243,6 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1367F0923FE5B10002621DE /* ViewController.swift in Sources */,
+				F1B0B6E923FF7387001A0CA3 /* TimeLineViewController.swift in Sources */,
+				F1B0B6EB23FF73D0001A0CA3 /* ShareViewController.swift in Sources */,
+				F1B0B6ED23FFA774001A0CA3 /* Post.swift in Sources */,
 				F1367F0523FE5B10002621DE /* AppDelegate.swift in Sources */,
 				F1367F0723FE5B10002621DE /* SceneDelegate.swift in Sources */,
 			);
